@@ -1,40 +1,51 @@
 .topnav {
     margin-top: 30px;
+    font-weight: 800;
+
 }
 
 .topnav a {
-    float: right;
-    color: #f2f2f2;
+    float: left;
+    color: #0b0101;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
+
+
 }
 
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: cadetblue;
     color: white;
 }
 
+body {
+    margin: 0%;
+}
+
+
 .top-section {
     display: flex;
-    width: 80%;
+    width: 100%;
     padding-top: 150px;
+    background-color: rgb(252, 245, 237);
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: right;
-
+    background-position: right bottom;
 
 }
 
 .imran-portpolio {
     width: 70%;
     padding-left: 10%;
+
 }
 
+
 h2 {
-    font-size: 70px;
+    font-size: 60px;
 }
 
 h1 {
@@ -42,8 +53,9 @@ h1 {
     margin-bottom: 0;
 }
 
-
-
+p {
+    font-weight: 800;
+}
 
 .dwld-button {
     text-decoration: none;
@@ -53,4 +65,45 @@ h1 {
     font-weight: 800;
     padding: 10px;
     margin-top: 10px;
+}
+
+.about-section {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 7%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(252, 245, 237);
+    border-radius: 15px;
+}
+
+.about-me {
+    text-align: center;
+    padding: 50px;
+}
+
+.what-ido {
+    text-align: center;
+    margin: 100px;
+}
+
+.what-ido-item {
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+
+}
+
+.what-ido-eliment {
+
+    border: 1px hidden;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 50px 1px;
+    border-radius: 3px;
+}
+
+.what-ido-eliment p {
+    text-align: justify;
 }
