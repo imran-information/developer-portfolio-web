@@ -68,9 +68,9 @@ p {
 }
 
 .about-section {
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: 7%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 10%;
     margin-left: 20%;
     margin-right: 20%;
     background-color: rgb(252, 245, 237);
@@ -79,7 +79,7 @@ p {
 
 .about-me {
     text-align: center;
-    padding: 50px;
+    padding: 150px;
 }
 
 .what-ido {
